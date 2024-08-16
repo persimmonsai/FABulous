@@ -210,15 +210,15 @@ class FABulous:
 
 
 class FABulousShell(cmd.Cmd):
-    intro: str = f"""
+    intro: str = r"""
 
     ______      ____        __
     |  ____/\   |  _ \      | |
     | |__ /  \  | |_) |_   _| | ___  _   _ ___
     |  __/ /\ \ |  _ <| | | | |/ _ \| | | / __|
-    | | / ____ \| |_) | |_| | | (_) | |_| \__ \\
+    | | / ____ \| |_) | |_| | | (_) | |_| \__ \
     |_|/_/    \_\____/ \__,_|_|\___/ \__,_|___/
-
+""" + f"""
 
 Welcome to FABulous shell
 You have started the FABulous shell with following options:
